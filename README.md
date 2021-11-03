@@ -132,3 +132,4 @@ sudo chmod g+rw /dev/spidev0.0
 
 1. https://cdn-shop.adafruit.com/datasheets/MCP3008.pdf
 2. https://tutorials-raspberrypi.com/measuring-soil-moisture-with-raspberry-pi/
+3. https://askubuntu.com/questions/1273700/enable-spi-and-i2c-on-ubuntu-20-04-raspberry-pi
