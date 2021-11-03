@@ -114,7 +114,19 @@ On a command terminal, follow these instructions:
 
 1. Connect to the Raspberry with ssh: `ssh user@pi`.
 2. Install the spidev library with pip: `pip3 install spidev`.
-3. Run the script in privilage mode: `sudo .\moisture.py`
+3. Create a folder to hold this project: `mkdir moisture`.
+4. Change directory: `cd moisture`.
+5. Clone the project: `git clone https://github.com/Ryuuba/Pi3_higrometer.git .`
+6. Run the script in privilage mode: `sudo .\moisture.py`
+
+The success of the above mentioned instructions requires that the SPI dev of the Raspberry Pi is properly enable. In Ubuntu Server, this is accomplished following these instructions:
+
+```Bash
+sudo groupadd spiuser
+sudo usermod -aG spiuser your_user
+sudo chown :spiuser /dev/spidev0.0
+sudo chmod g+rw /dev/spidev0.0
+```
 
 ## Bibliography
 
