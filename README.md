@@ -119,7 +119,7 @@ On a command terminal, follow these instructions:
 5. Clone the project: `git clone https://github.com/Ryuuba/Pi3_higrometer.git .`
 6. Run the script in privilage mode: `sudo .\moisture.py`
 
-The success of the above mentioned instructions requires that the SPI dev of the Raspberry Pi is properly enable. In Ubuntu Server, this is accomplished following these instructions:
+The success of the above mentioned instructions requires that the SPI dev of the Raspberry Pi is properly enable. On Ubuntu Server, this is accomplished following these instructions:
 
 ```Bash
 sudo groupadd spiuser
